@@ -1,0 +1,9 @@
+.redondeado{
+    border-radius: 50%;
+}
+
+.brown-text{
+    color: #8b5a44;
+    font-weight: bold;
+    font-size: 13px;
+}
