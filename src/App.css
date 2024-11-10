@@ -7,3 +7,11 @@
     font-weight: bold;
     font-size: 13px;
 }
+
+.background-img{
+    background-image: url('./assets/img/logo-hidracao.jpeg'); /* Set the background image */
+    background-size: cover;   /* Scale the image to cover the entire div */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-color: transparent;
+}

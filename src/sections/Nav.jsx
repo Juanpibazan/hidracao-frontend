@@ -36,8 +36,8 @@ const Nav = ()=>{
                 {
                     toggle && (
                         <ul className={`flex max-md:flex-col justify-start items-start gap-2`}>
+                            <li className='brown-text'>Lipstick</li>
                             <li className='brown-text'>Quienes somos?</li>
-                            <li className='brown-text'>Producto</li>
                             <li className='brown-text'>Contacto</li>
                         </ul>
                     )

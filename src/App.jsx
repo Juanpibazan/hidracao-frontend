@@ -3,14 +3,21 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-import Nav from './sections/Nav'
+import Nav from './sections/Nav';
+import Hero from './sections/Hero';
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <main className='relative'>
-      <Nav />
+      <section>
+        <Nav />
+      </section>
+      <section>
+        <Hero/>
+      </section>
+
     </main>
   )
 }
